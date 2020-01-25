@@ -1,0 +1,14 @@
+C:\CSharp\CrudExemplos\CrudExemplos\bin\Debug\CrudExemplos.exe.config
+C:\CSharp\CrudExemplos\CrudExemplos\bin\Debug\CrudExemplos.exe
+C:\CSharp\CrudExemplos\CrudExemplos\bin\Debug\CrudExemplos.pdb
+C:\CSharp\CrudExemplos\CrudExemplos\obj\Debug\CrudExemplos.Properties.Resources.resources
+C:\CSharp\CrudExemplos\CrudExemplos\obj\Debug\CrudExemplos.csproj.GenerateResource.cache
+C:\CSharp\CrudExemplos\CrudExemplos\obj\Debug\CrudExemplos.exe
+C:\CSharp\CrudExemplos\CrudExemplos\obj\Debug\CrudExemplos.pdb
+C:\CSharp\CrudExemplos\CrudExemplos\bin\Debug\MySql.Data.dll
+C:\CSharp\CrudExemplos\CrudExemplos\obj\Debug\CrudExemplos.csproj.CopyComplete
+C:\CSharp\CrudExemplos\CrudExemplos\obj\Debug\CrudExemplos.Form2.resources
+C:\CSharp\CrudExemplos\CrudExemplos\obj\Debug\CrudExemplos.TelaMenu.resources
+C:\CSharp\CrudExemplos\CrudExemplos\obj\Debug\CrudExemplos.CadastroParceiro.resources
+C:\CSharp\CrudExemplos\CrudExemplos\obj\Debug\CrudExemplos.Usuario.resources
+C:\CSharp\CrudExemplos\CrudExemplos\obj\Debug\CrudExemplos.csprojAssemblyReference.cache

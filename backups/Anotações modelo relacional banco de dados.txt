@@ -1,0 +1,64 @@
+nome
+email
+data_nasc
+telefone
+celular
+cpf_cnpj
+rg_ie
+
+endereco
+bairro
+cidade
+numero
+estado
+cep
+referencia
+
+tipo_usu
+-------------------------
+------mesas comandas--------
+---tabela pedido--
+mesa_num
+pedido id
+situ_ped
+atendente
+observação
+cliente
+num_pessoas
+cod_prod tabela produto
+desc_prod tabela produto
+preco_prod tabela produto
+cod_usu (tabela usuarios)
+codi_func(tabela funcionarios)
+
+-----caixa/----
+saldo_ini
+dh_abertura
+dh_fechamento
+obs_cx
+entradas_cx
+saidas_cx
+fpagto_cx
+desc_cx
+dhmov_cx
+total_entradas
+total_saidas
+saldo_cx
+situ_cx
+----------------
+-----mesas------
+cod_mesa
+mesa/comanda
+pedido id
+situ_ped
+atendente
+observação
+cliente
+num_pessoas
+cod_prod tabela produto
+desc_prod tabela produto
+preco_prod tabela produto
+cod_usu (tabela usuarios)
+codi_func(tabela funcionarios)
+tempo
+
