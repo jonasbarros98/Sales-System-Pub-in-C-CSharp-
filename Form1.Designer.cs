@@ -314,7 +314,7 @@
             this.groupBox1.Location = new System.Drawing.Point(7, 218);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(526, 181);
-            this.groupBox1.TabIndex = 32;
+            this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Endereço Principal";
             // 
@@ -375,7 +375,7 @@
             this.groupBox2.Location = new System.Drawing.Point(7, 21);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(526, 191);
-            this.groupBox2.TabIndex = 33;
+            this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Dados Principais";
             // 

@@ -62,12 +62,12 @@
             this.label4 = new System.Windows.Forms.Label();
             this.cmbEstado = new System.Windows.Forms.ComboBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.cmbTipoUsu = new System.Windows.Forms.ComboBox();
             this.label17 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.txtSenha = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.txtLogin = new System.Windows.Forms.TextBox();
             this.button5 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -107,10 +107,11 @@
             // maskDataNascUsu
             // 
             this.maskDataNascUsu.Location = new System.Drawing.Point(358, 100);
-            this.maskDataNascUsu.Mask = "00/00/0000";
+            this.maskDataNascUsu.Mask = "0000-00-00";
             this.maskDataNascUsu.Name = "maskDataNascUsu";
             this.maskDataNascUsu.Size = new System.Drawing.Size(85, 21);
             this.maskDataNascUsu.TabIndex = 31;
+            this.maskDataNascUsu.ValidatingType = typeof(System.DateTime);
             // 
             // label14
             // 
@@ -397,12 +398,13 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.comboBox1);
+            this.groupBox3.Controls.Add(this.cmbTipoUsu);
             this.groupBox3.Controls.Add(this.label17);
-            this.groupBox3.Controls.Add(this.textBox2);
+            this.groupBox3.Controls.Add(this.txtSenha);
             this.groupBox3.Controls.Add(this.label16);
             this.groupBox3.Controls.Add(this.label11);
-            this.groupBox3.Controls.Add(this.textBox1);
+            this.groupBox3.Controls.Add(this.txtLogin);
+            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.Location = new System.Drawing.Point(12, 400);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(493, 154);
@@ -410,39 +412,13 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Como Usuário";
             // 
-            // textBox1
+            // cmbTipoUsu
             // 
-            this.textBox1.Location = new System.Drawing.Point(59, 32);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(156, 20);
-            this.textBox1.TabIndex = 16;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(10, 32);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(47, 17);
-            this.label11.TabIndex = 17;
-            this.label11.Text = "Login:";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(4, 80);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(53, 17);
-            this.label16.TabIndex = 18;
-            this.label16.Text = "Senha:";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(59, 80);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(156, 20);
-            this.textBox2.TabIndex = 19;
+            this.cmbTipoUsu.FormattingEnabled = true;
+            this.cmbTipoUsu.Location = new System.Drawing.Point(342, 35);
+            this.cmbTipoUsu.Name = "cmbTipoUsu";
+            this.cmbTipoUsu.Size = new System.Drawing.Size(134, 21);
+            this.cmbTipoUsu.TabIndex = 22;
             // 
             // label17
             // 
@@ -454,13 +430,40 @@
             this.label17.TabIndex = 21;
             this.label17.Text = "Tipo de Usuário:";
             // 
-            // comboBox1
+            // txtSenha
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(342, 35);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(134, 21);
-            this.comboBox1.TabIndex = 22;
+            this.txtSenha.Location = new System.Drawing.Point(59, 80);
+            this.txtSenha.Name = "txtSenha";
+            this.txtSenha.PasswordChar = '*';
+            this.txtSenha.Size = new System.Drawing.Size(156, 20);
+            this.txtSenha.TabIndex = 19;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(4, 80);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(53, 17);
+            this.label16.TabIndex = 18;
+            this.label16.Text = "Senha:";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(10, 32);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(47, 17);
+            this.label11.TabIndex = 17;
+            this.label11.Text = "Login:";
+            // 
+            // txtLogin
+            // 
+            this.txtLogin.Location = new System.Drawing.Point(59, 32);
+            this.txtLogin.Name = "txtLogin";
+            this.txtLogin.Size = new System.Drawing.Size(156, 20);
+            this.txtLogin.TabIndex = 16;
             // 
             // button5
             // 
@@ -514,6 +517,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "Usuario";
             this.Text = "Usuario";
+            this.Load += new System.EventHandler(this.Usuario_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -559,12 +563,12 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ComboBox cmbEstado;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cmbTipoUsu;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtSenha;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtLogin;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
