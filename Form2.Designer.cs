@@ -66,14 +66,14 @@
             this.txtLogin.Location = new System.Drawing.Point(356, 83);
             this.txtLogin.Name = "txtLogin";
             this.txtLogin.Size = new System.Drawing.Size(168, 20);
-            this.txtLogin.TabIndex = 3;
+            this.txtLogin.TabIndex = 1;
             // 
             // txtSenha
             // 
             this.txtSenha.Location = new System.Drawing.Point(356, 138);
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.Size = new System.Drawing.Size(168, 20);
-            this.txtSenha.TabIndex = 4;
+            this.txtSenha.TabIndex = 2;
             // 
             // groupBox1
             // 
@@ -127,7 +127,7 @@
             this.button2.Location = new System.Drawing.Point(435, 231);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(89, 29);
-            this.button2.TabIndex = 5;
+            this.button2.TabIndex = 4;
             this.button2.Text = "Sair";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -137,7 +137,7 @@
             this.button1.Location = new System.Drawing.Point(328, 231);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(92, 29);
-            this.button1.TabIndex = 5;
+            this.button1.TabIndex = 3;
             this.button1.Text = "Login";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);

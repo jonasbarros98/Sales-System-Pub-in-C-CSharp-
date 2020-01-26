@@ -86,6 +86,11 @@ namespace CrudExemplos
             cmbTipoUsu.Items.Add("ADM");
             cmbTipoUsu.Items.Add("USUÁRIO");
         }
+
+        private void txtLogin_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
     
 }

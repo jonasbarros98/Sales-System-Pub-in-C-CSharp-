@@ -17,6 +17,7 @@ namespace CrudExemplos
         public TelaMenu()
         {
             InitializeComponent();
+            
         }
 
         private void testeToolStripMenuItem_Click(object sender, EventArgs e)
@@ -26,7 +27,7 @@ namespace CrudExemplos
 
         private void TelaMenu_Load (object sender, EventArgs e)
         {
-            
+           
         }
 
         private void TelaMenu_FormClosed(object sender, FormClosedEventArgs e)
@@ -90,6 +91,18 @@ namespace CrudExemplos
         {
             Usuario usu = new Usuario();
             usu.Show();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            Produtos prod = new Produtos();
+            prod.Show();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            Fornecedor forn = new Fornecedor();
+            forn.Show();
         }
     }
 }
