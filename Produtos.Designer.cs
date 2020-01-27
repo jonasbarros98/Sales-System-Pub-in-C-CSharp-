@@ -36,17 +36,14 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.txtCodProd = new System.Windows.Forms.TextBox();
+            this.txtCodPerson = new System.Windows.Forms.TextBox();
+            this.txtNome = new System.Windows.Forms.TextBox();
+            this.txtCategoria = new System.Windows.Forms.TextBox();
+            this.txtPrecoCusto = new System.Windows.Forms.TextBox();
+            this.txtPrecoVenda = new System.Windows.Forms.TextBox();
+            this.txtDescricao = new System.Windows.Forms.TextBox();
             this.ProdutoListDataGrid = new System.Windows.Forms.DataGridView();
-            this.bd_crudDataSet = new CrudExemplos.bd_crudDataSet();
-            this.produtoBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.produtoTableAdapter = new CrudExemplos.bd_crudDataSetTableAdapters.produtoTableAdapter();
             this.codprodDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nomeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.categoriaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -54,9 +51,16 @@
             this.precovendaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.descricaoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.codpersonalizadoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.produtoBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.bd_crudDataSet = new CrudExemplos.bd_crudDataSet();
+            this.produtoTableAdapter = new CrudExemplos.bd_crudDataSetTableAdapters.produtoTableAdapter();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.ProdutoListDataGrid)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bd_crudDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.produtoBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bd_crudDataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -73,6 +77,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Red;
             this.label2.Location = new System.Drawing.Point(30, 78);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(53, 18);
@@ -94,6 +99,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Red;
             this.label4.Location = new System.Drawing.Point(357, 77);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(116, 18);
@@ -104,6 +110,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.Red;
             this.label5.Location = new System.Drawing.Point(356, 122);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(117, 18);
@@ -114,7 +121,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(30, 168);
+            this.label6.Location = new System.Drawing.Point(26, 166);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(80, 18);
             this.label6.TabIndex = 5;
@@ -130,57 +137,62 @@
             this.label7.TabIndex = 6;
             this.label7.Text = "Cód. Personalizado:";
             // 
-            // textBox1
+            // txtCodProd
             // 
-            this.textBox1.Location = new System.Drawing.Point(133, 30);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(73, 20);
-            this.textBox1.TabIndex = 7;
+            this.txtCodProd.Enabled = false;
+            this.txtCodProd.Location = new System.Drawing.Point(133, 30);
+            this.txtCodProd.Name = "txtCodProd";
+            this.txtCodProd.Size = new System.Drawing.Size(63, 20);
+            this.txtCodProd.TabIndex = 7;
             // 
-            // textBox2
+            // txtCodPerson
             // 
-            this.textBox2.Location = new System.Drawing.Point(479, 29);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(120, 20);
-            this.textBox2.TabIndex = 8;
+            this.txtCodPerson.Location = new System.Drawing.Point(479, 29);
+            this.txtCodPerson.Name = "txtCodPerson";
+            this.txtCodPerson.Size = new System.Drawing.Size(120, 20);
+            this.txtCodPerson.TabIndex = 8;
             // 
-            // textBox3
+            // txtNome
             // 
-            this.textBox3.Location = new System.Drawing.Point(133, 78);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(202, 20);
-            this.textBox3.TabIndex = 9;
+            this.txtNome.Location = new System.Drawing.Point(105, 78);
+            this.txtNome.Name = "txtNome";
+            this.txtNome.Size = new System.Drawing.Size(202, 20);
+            this.txtNome.TabIndex = 9;
             // 
-            // textBox4
+            // txtCategoria
             // 
-            this.textBox4.Location = new System.Drawing.Point(133, 120);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(202, 20);
-            this.textBox4.TabIndex = 10;
+            this.txtCategoria.Location = new System.Drawing.Point(105, 120);
+            this.txtCategoria.Name = "txtCategoria";
+            this.txtCategoria.Size = new System.Drawing.Size(202, 20);
+            this.txtCategoria.TabIndex = 10;
             // 
-            // textBox5
+            // txtPrecoCusto
             // 
-            this.textBox5.Location = new System.Drawing.Point(479, 76);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(125, 20);
-            this.textBox5.TabIndex = 11;
+            this.txtPrecoCusto.Location = new System.Drawing.Point(479, 76);
+            this.txtPrecoCusto.Name = "txtPrecoCusto";
+            this.txtPrecoCusto.Size = new System.Drawing.Size(125, 20);
+            this.txtPrecoCusto.TabIndex = 11;
+            this.txtPrecoCusto.TextChanged += new System.EventHandler(this.txtPrecoCusto_TextChanged);
             // 
-            // textBox6
+            // txtPrecoVenda
             // 
-            this.textBox6.Location = new System.Drawing.Point(479, 120);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(125, 20);
-            this.textBox6.TabIndex = 12;
+            this.txtPrecoVenda.Location = new System.Drawing.Point(479, 120);
+            this.txtPrecoVenda.Name = "txtPrecoVenda";
+            this.txtPrecoVenda.Size = new System.Drawing.Size(125, 20);
+            this.txtPrecoVenda.TabIndex = 12;
             // 
-            // textBox7
+            // txtDescricao
             // 
-            this.textBox7.Location = new System.Drawing.Point(133, 169);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(202, 20);
-            this.textBox7.TabIndex = 13;
+            this.txtDescricao.Location = new System.Drawing.Point(105, 166);
+            this.txtDescricao.Name = "txtDescricao";
+            this.txtDescricao.Size = new System.Drawing.Size(202, 20);
+            this.txtDescricao.TabIndex = 13;
             // 
             // ProdutoListDataGrid
             // 
+            this.ProdutoListDataGrid.AllowUserToOrderColumns = true;
+            this.ProdutoListDataGrid.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.ProdutoListDataGrid.AutoGenerateColumns = false;
             this.ProdutoListDataGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.ProdutoListDataGrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -194,78 +206,142 @@
             this.ProdutoListDataGrid.DataSource = this.produtoBindingSource;
             this.ProdutoListDataGrid.Location = new System.Drawing.Point(12, 227);
             this.ProdutoListDataGrid.Name = "ProdutoListDataGrid";
-            this.ProdutoListDataGrid.Size = new System.Drawing.Size(618, 219);
+            this.ProdutoListDataGrid.Size = new System.Drawing.Size(618, 235);
             this.ProdutoListDataGrid.TabIndex = 14;
-            // 
-            // bd_crudDataSet
-            // 
-            this.bd_crudDataSet.DataSetName = "bd_crudDataSet";
-            this.bd_crudDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // produtoBindingSource
-            // 
-            this.produtoBindingSource.DataMember = "produto";
-            this.produtoBindingSource.DataSource = this.bd_crudDataSet;
-            // 
-            // produtoTableAdapter
-            // 
-            this.produtoTableAdapter.ClearBeforeFill = true;
+            this.ProdutoListDataGrid.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ProdutoListDataGrid_CellContentClick);
+            this.ProdutoListDataGrid.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ProdutoListDataGrid_CellDoubleClick);
             // 
             // codprodDataGridViewTextBoxColumn
             // 
             this.codprodDataGridViewTextBoxColumn.DataPropertyName = "cod_prod";
             this.codprodDataGridViewTextBoxColumn.HeaderText = "cod_prod";
             this.codprodDataGridViewTextBoxColumn.Name = "codprodDataGridViewTextBoxColumn";
+            this.codprodDataGridViewTextBoxColumn.ReadOnly = true;
+            this.codprodDataGridViewTextBoxColumn.Width = 82;
             // 
             // nomeDataGridViewTextBoxColumn
             // 
             this.nomeDataGridViewTextBoxColumn.DataPropertyName = "nome";
             this.nomeDataGridViewTextBoxColumn.HeaderText = "nome";
             this.nomeDataGridViewTextBoxColumn.Name = "nomeDataGridViewTextBoxColumn";
+            this.nomeDataGridViewTextBoxColumn.ReadOnly = true;
+            this.nomeDataGridViewTextBoxColumn.Width = 82;
             // 
             // categoriaDataGridViewTextBoxColumn
             // 
             this.categoriaDataGridViewTextBoxColumn.DataPropertyName = "categoria";
             this.categoriaDataGridViewTextBoxColumn.HeaderText = "categoria";
             this.categoriaDataGridViewTextBoxColumn.Name = "categoriaDataGridViewTextBoxColumn";
+            this.categoriaDataGridViewTextBoxColumn.ReadOnly = true;
+            this.categoriaDataGridViewTextBoxColumn.Width = 82;
             // 
             // precocustoDataGridViewTextBoxColumn
             // 
             this.precocustoDataGridViewTextBoxColumn.DataPropertyName = "preco_custo";
             this.precocustoDataGridViewTextBoxColumn.HeaderText = "preco_custo";
             this.precocustoDataGridViewTextBoxColumn.Name = "precocustoDataGridViewTextBoxColumn";
+            this.precocustoDataGridViewTextBoxColumn.ReadOnly = true;
+            this.precocustoDataGridViewTextBoxColumn.Width = 83;
             // 
             // precovendaDataGridViewTextBoxColumn
             // 
             this.precovendaDataGridViewTextBoxColumn.DataPropertyName = "preco_venda";
             this.precovendaDataGridViewTextBoxColumn.HeaderText = "preco_venda";
             this.precovendaDataGridViewTextBoxColumn.Name = "precovendaDataGridViewTextBoxColumn";
+            this.precovendaDataGridViewTextBoxColumn.ReadOnly = true;
+            this.precovendaDataGridViewTextBoxColumn.Width = 82;
             // 
             // descricaoDataGridViewTextBoxColumn
             // 
             this.descricaoDataGridViewTextBoxColumn.DataPropertyName = "descricao";
             this.descricaoDataGridViewTextBoxColumn.HeaderText = "descricao";
             this.descricaoDataGridViewTextBoxColumn.Name = "descricaoDataGridViewTextBoxColumn";
+            this.descricaoDataGridViewTextBoxColumn.ReadOnly = true;
+            this.descricaoDataGridViewTextBoxColumn.Width = 82;
             // 
             // codpersonalizadoDataGridViewTextBoxColumn
             // 
             this.codpersonalizadoDataGridViewTextBoxColumn.DataPropertyName = "cod_personalizado";
             this.codpersonalizadoDataGridViewTextBoxColumn.HeaderText = "cod_personalizado";
             this.codpersonalizadoDataGridViewTextBoxColumn.Name = "codpersonalizadoDataGridViewTextBoxColumn";
+            this.codpersonalizadoDataGridViewTextBoxColumn.ReadOnly = true;
+            this.codpersonalizadoDataGridViewTextBoxColumn.Width = 82;
+            // 
+            // produtoBindingSource
+            // 
+            this.produtoBindingSource.DataMember = "produto";
+            this.produtoBindingSource.DataSource = this.bd_crudDataSet;
+            // 
+            // bd_crudDataSet
+            // 
+            this.bd_crudDataSet.DataSetName = "bd_crudDataSet";
+            this.bd_crudDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // produtoTableAdapter
+            // 
+            this.produtoTableAdapter.ClearBeforeFill = true;
+            // 
+            // button5
+            // 
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Location = new System.Drawing.Point(479, 468);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(116, 30);
+            this.button5.TabIndex = 23;
+            this.button5.Text = "Sair";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // button3
+            // 
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(342, 468);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(116, 30);
+            this.button3.TabIndex = 22;
+            this.button3.Text = "Editar";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(202, 468);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(110, 30);
+            this.button2.TabIndex = 21;
+            this.button2.Text = "Excluir";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(58, 468);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(110, 30);
+            this.button1.TabIndex = 20;
+            this.button1.Text = "Salvar";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Produtos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(642, 501);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.ProdutoListDataGrid);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtDescricao);
+            this.Controls.Add(this.txtPrecoVenda);
+            this.Controls.Add(this.txtPrecoCusto);
+            this.Controls.Add(this.txtCategoria);
+            this.Controls.Add(this.txtNome);
+            this.Controls.Add(this.txtCodPerson);
+            this.Controls.Add(this.txtCodProd);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -274,11 +350,12 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Produtos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Produtos";
             this.Load += new System.EventHandler(this.Produtos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ProdutoListDataGrid)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bd_crudDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.produtoBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bd_crudDataSet)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -293,17 +370,21 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox txtCodProd;
+        private System.Windows.Forms.TextBox txtCodPerson;
+        private System.Windows.Forms.TextBox txtNome;
+        private System.Windows.Forms.TextBox txtCategoria;
+        private System.Windows.Forms.TextBox txtPrecoCusto;
+        private System.Windows.Forms.TextBox txtPrecoVenda;
+        private System.Windows.Forms.TextBox txtDescricao;
         private System.Windows.Forms.DataGridView ProdutoListDataGrid;
         private bd_crudDataSet bd_crudDataSet;
         private System.Windows.Forms.BindingSource produtoBindingSource;
         private bd_crudDataSetTableAdapters.produtoTableAdapter produtoTableAdapter;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DataGridViewTextBoxColumn codprodDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn nomeDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn categoriaDataGridViewTextBoxColumn;
