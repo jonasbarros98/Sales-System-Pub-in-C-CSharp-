@@ -28,16 +28,22 @@ namespace CrudExemplos
         private void Produtos_Load(object sender, EventArgs e)
 
 
+
         {
             // TODO: esta linha de código carrega dados na tabela 'bd_crudDataSet.produto'. Você pode movê-la ou removê-la conforme necessário.
             this.produtoTableAdapter.Fill(this.bd_crudDataSet.produto);
             ProdutoListDataGrid.DataSource = GetProdutoList(); //daqui para baixo é a conexao com o BD atravez do Visual Studio;
         }
 
+        public void RefreshGrid()
+        {
+            this.ProdutoListDataGrid.Refresh();
+        }
         private DataTable GetProdutoList()
         {
             
                 DataTable dtProdutos = new DataTable();
+
 
 
                 string connString = ConfigurationManager.ConnectionStrings["dbx"].ConnectionString;
@@ -51,16 +57,29 @@ namespace CrudExemplos
                         MySqlDataReader reader = cmd.ExecuteReader();
 
                         dtProdutos.Load(reader);
+
+                    
                     }
-                }
+                con.Close();
+                
+            }
                 return dtProdutos;
 
-            }
+
+           
+        }
+
+        public void listar()
+        {
+            ProdutoListDataGrid.DataSource = GetProdutoList();
+        }
+        
 
         private void propertyGrid1_Click(object sender, EventArgs e)
         {
 
         }
+        
 
         private void ProdutoListDataGrid_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -107,6 +126,7 @@ namespace CrudExemplos
                     " Os campos Nome, Preço de Custo e Preço de venda não podem ficar vazios!");
             }
             LimpaTexbox();
+            listar();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -133,20 +153,18 @@ namespace CrudExemplos
                 //fechar conexao
                 objconex.Close();
 
-                MessageBox.Show("Atualização realizada com sucesso!");
+                //MessageBox.Show("Cadastro realizado com sucesso!");
+                MessageBox.Show("Cadastro realizado com sucesso!", ":: Controle de Cadastro ::", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-
+               // GetProdutoList();
             }
             catch (Exception)
             {
                 MessageBox.Show("Falha ao salvar os dados!" +
                     " Preencha os campos obrigatórios");
             }
-            LimpaTexbox();
-
-            Produtos prod = new Produtos();
-            prod.Show();
-            Close();
+            LimpaTexbox();  
+            listar();
             
 
 
@@ -206,12 +224,14 @@ namespace CrudExemplos
                 MessageBox.Show("Coloque o registro a ser removido no campo Código");
             }
             LimpaTexbox();
+            listar();
         }
 
         private void ProdutoListDataGrid_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
+       
     }
         
 }

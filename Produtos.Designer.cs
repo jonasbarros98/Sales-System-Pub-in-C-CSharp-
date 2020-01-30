@@ -194,6 +194,7 @@
             this.ProdutoListDataGrid.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.ProdutoListDataGrid.AutoGenerateColumns = false;
+            this.ProdutoListDataGrid.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
             this.ProdutoListDataGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.ProdutoListDataGrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.codprodDataGridViewTextBoxColumn,
@@ -203,10 +204,11 @@
             this.precovendaDataGridViewTextBoxColumn,
             this.descricaoDataGridViewTextBoxColumn,
             this.codpersonalizadoDataGridViewTextBoxColumn});
+            this.ProdutoListDataGrid.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ProdutoListDataGrid.DataSource = this.produtoBindingSource;
-            this.ProdutoListDataGrid.Location = new System.Drawing.Point(12, 227);
+            this.ProdutoListDataGrid.Location = new System.Drawing.Point(12, 214);
             this.ProdutoListDataGrid.Name = "ProdutoListDataGrid";
-            this.ProdutoListDataGrid.Size = new System.Drawing.Size(618, 235);
+            this.ProdutoListDataGrid.Size = new System.Drawing.Size(618, 352);
             this.ProdutoListDataGrid.TabIndex = 14;
             this.ProdutoListDataGrid.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ProdutoListDataGrid_CellContentClick);
             this.ProdutoListDataGrid.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ProdutoListDataGrid_CellDoubleClick);
@@ -284,7 +286,7 @@
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(479, 468);
+            this.button5.Location = new System.Drawing.Point(479, 572);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(116, 30);
             this.button5.TabIndex = 23;
@@ -295,7 +297,7 @@
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(342, 468);
+            this.button3.Location = new System.Drawing.Point(333, 572);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(116, 30);
             this.button3.TabIndex = 22;
@@ -305,8 +307,9 @@
             // 
             // button2
             // 
+            this.button2.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(202, 468);
+            this.button2.Location = new System.Drawing.Point(197, 572);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(110, 30);
             this.button2.TabIndex = 21;
@@ -316,8 +319,9 @@
             // 
             // button1
             // 
+            this.button1.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(58, 468);
+            this.button1.Location = new System.Drawing.Point(54, 572);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(110, 30);
             this.button1.TabIndex = 20;
@@ -329,7 +333,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(642, 501);
+            this.ClientSize = new System.Drawing.Size(642, 611);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
