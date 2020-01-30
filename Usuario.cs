@@ -45,7 +45,7 @@ namespace CrudExemplos
                 objComando.Parameters.Add("@cep", MySqlDbType.VarChar, 10).Value = txtCep.Text;
                 objComando.Parameters.Add("@login", MySqlDbType.VarChar, 45).Value = txtLogin.Text;
                 objComando.Parameters.Add("@senha", MySqlDbType.VarChar, 45).Value = txtSenha.Text;
-                objComando.Parameters.Add("@tipo_usu", MySqlDbType.VarChar, 10).Value = cmbTipoUsu.SelectedItem.ToString();
+                objComando.Parameters.Add("@tipo_usu", MySqlDbType.VarChar, 30).Value = cmbTipoUsu.SelectedItem.ToString();
 
                 //comando para executar query
                 objComando.ExecuteNonQuery();
@@ -95,6 +95,39 @@ namespace CrudExemplos
         private void button3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                //passa a string de conexao
+                MySqlConnection objconex = new MySqlConnection("server=localhost;port=3306;User Id=root;database=bd_crud;password=masterkey");
+                objconex.Open();
+
+                //comando sql para deletar
+                MySqlCommand objComando = new MySqlCommand("delete from usuarios where cod_usu = ?", objconex);
+                objComando.Parameters.Clear();
+
+                //buscando o parametro para deletar
+                objComando.Parameters.Add("@cod_usu", MySqlDbType.Int32).Value = txtCodUsu.Text;
+
+                // tipo de comando sendo executado
+                objComando.CommandType = CommandType.Text;
+
+                //executar o sql
+                objComando.ExecuteNonQuery();
+
+                MessageBox.Show("Registro excluído com sucesso!");
+
+                objconex.Close();
+
+            }
+            catch (Exception erro)
+            {
+                MessageBox.Show("Não foi possível deletar!\n " + erro);
+                MessageBox.Show("Coloque o registro a ser removido no campo Código");
+            }
         }
     }
     

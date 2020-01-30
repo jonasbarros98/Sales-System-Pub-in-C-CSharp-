@@ -112,7 +112,7 @@ namespace CrudExemplos
             }
             catch (Exception erro)
             {
-                MessageBox.Show("Não foi possível deletar " + erro);
+                MessageBox.Show("Não foi possível deletar! " + erro);
                 MessageBox.Show("Coloque o registro a ser removido no campo Código");
             }
         }
