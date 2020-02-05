@@ -17,19 +17,25 @@ namespace CrudExemplos
         public TelaMenu()
         {
             InitializeComponent();
-            
+            Form2 usulogado = new Form2();
+            txtUsuarioLogado.Text = usulogado.txtLogin.Text;
+
         }
 
         private void testeToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
         }
-
+        
+        
         private void TelaMenu_Load (object sender, EventArgs e)
         {
-           
+            Form2 usulogado = new Form2();
+            txtUsuarioLogado.Text = usulogado.txtLogin.Text;
+
         }
 
+     
         private void TelaMenu_FormClosed(object sender, FormClosedEventArgs e)
         {
             if (Application.OpenForms.Count == 0)

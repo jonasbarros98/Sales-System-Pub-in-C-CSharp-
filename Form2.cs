@@ -19,6 +19,7 @@ namespace CrudExemplos
             txtSenha.PasswordChar = '*';
         }
 
+
         private void button1_Click(object sender, EventArgs e)
         {
             MySqlConnection Conexao = new MySqlConnection("server=localhost;port=3306;User Id=root;database=bd_crud;password=masterkey");
@@ -62,11 +63,28 @@ namespace CrudExemplos
         {
             Close();
         }
+        public class Login : Form2
+        {
+            public string usuario
+            {
+                get { return txtLogin.Text; }
+            }
 
+        }
         private void button3_Click(object sender, EventArgs e)
         {
             TelaMenu fm3 = new TelaMenu();
             fm3.Show();
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
