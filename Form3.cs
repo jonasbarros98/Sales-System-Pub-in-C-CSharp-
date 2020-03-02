@@ -30,8 +30,8 @@ namespace CrudExemplos
         
         private void TelaMenu_Load (object sender, EventArgs e)
         {
-            Form2 usulogado = new Form2();
-            txtUsuarioLogado.Text = usulogado.txtLogin.Text;
+            //Form2 usulogado = new Form2();
+            //txtUsuarioLogado.Text = usulogado.txtuserlogado.Text;
 
         }
 

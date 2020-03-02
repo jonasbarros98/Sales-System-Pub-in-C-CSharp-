@@ -63,6 +63,26 @@ namespace CrudExemplos.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1486564706_trash_can_81531 {
+            get {
+                object obj = ResourceManager.GetObject("1486564706-trash-can_81531", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1486564724_pencil_81530 {
+            get {
+                object obj = ResourceManager.GetObject("1486564724-pencil_81530", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _86282 {
             get {
                 object obj = ResourceManager.GetObject("86282", resourceCulture);
@@ -76,6 +96,56 @@ namespace CrudExemplos.Properties {
         internal static System.Drawing.Bitmap _88247 {
             get {
                 object obj = ResourceManager.GetObject("88247", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap documentprint_104469 {
+            get {
+                object obj = ResourceManager.GetObject("documentprint_104469", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dollars_96693 {
+            get {
+                object obj = ResourceManager.GetObject("dollars_96693", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap edit_find_symbolic_36205 {
+            get {
+                object obj = ResourceManager.GetObject("edit-find-symbolic_36205", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ic_back_97586 {
+            get {
+                object obj = ResourceManager.GetObject("ic-back_97586", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ic_back_97586__1_ {
+            get {
+                object obj = ResourceManager.GetObject("ic-back_97586 (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

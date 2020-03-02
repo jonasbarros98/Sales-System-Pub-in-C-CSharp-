@@ -60,16 +60,34 @@ namespace CrudExemplos
                 MessageBox.Show("Não conectou: " + erro);
 
             }
+            LimpaTexbox();
         }
 
-        private void LimpaTexbox()
+       private void LimpaTexbox()
         {
             txtNomeUsu.Text = "";
-            
+            txtEmailUsu.Text = "";
+            cmbEstado.SelectedItem = "" ;
+            cmbCidade.SelectedItem = ""; 
+            txtEndereco.Text = "";
+            maskDataNascUsu.Text = "";
+            txtTelefoneUsu.Text = "";
+            txtCelularUsu.Text = "";
+            txtCpfCnpjUsu.Text = "";
+            txtRGIEUsu.Text = "";
+            txtRerefencia.Text = "";
+            txtBairro.Text = "";
+            txtNum.Text = "";
+            txtCep.Text = "";
+            txtLogin.Text = "";
+            txtSenha.Text = "";
+            cmbTipoUsu.SelectedItem = "";
+
         }
 
         private void Usuario_Load(object sender, EventArgs e)
         {
+            
             //inserindo dados no combobox do estado
             cmbEstado.Items.Add("SP");
             cmbEstado.Items.Add("GO");
@@ -78,7 +96,7 @@ namespace CrudExemplos
             cmbEstado.Items.Add("MT");
             cmbEstado.Items.Add("RS");
             cmbEstado.Items.Add("BA");
-            cmbEstado.Items.Add("MG");
+            cmbEstado.Items.Add("AC");
 
             //INSERINDO dados no combobox cidade
             cmbCidade.Items.Add("Rio Verde");
@@ -87,10 +105,40 @@ namespace CrudExemplos
             cmbCidade.Items.Add("Goiânia");
             cmbCidade.Items.Add("Santa Helena");
 
+            //CASE DE ESTADOS VS CIDADES
+           if (cmbEstado.Text == "AC")
+            {
+                cmbCidade.Items.Add(
+        "Acrelândia" +
+        "Assis Brasil" +
+        "Brasiléia" +
+        "Bujari" +
+        "Capixaba" +
+        "Cruzeiro do Sul" +
+        "Epitaciolândia" +
+        "Feijó" +
+        "Jordão" +
+        "Mâncio Lima" +
+        "Manoel Urbano" +
+        "Marechal Thaumaturgo" +
+        "Plácido de Castro" +
+        "Porto Acre" +
+        "Porto Walter" +
+        "Rio Branco" +
+        "Rodrigues Alves" +
+        "Santa Rosa do Purus" +
+        "Sena Madureira" +
+        "Senador Guiomard" +
+        "Tarauacá" +
+        "Xapuri");
+            }
+            
+
             //Inserindo dados no combobox Tipo de Usuario
             cmbTipoUsu.Items.Add("FUNCIONARIO");
             cmbTipoUsu.Items.Add("ADM");
             cmbTipoUsu.Items.Add("USUÁRIO");
+            cmbTipoUsu.Items.Add("OUTROS");
         }
 
         private void txtLogin_TextChanged(object sender, EventArgs e)

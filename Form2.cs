@@ -17,6 +17,7 @@ namespace CrudExemplos
         {
             InitializeComponent();
             txtSenha.PasswordChar = '*';
+         
         }
 
 
@@ -56,6 +57,7 @@ namespace CrudExemplos
             }
 
                 Conexao.Close();
+           
 
         }
 
@@ -63,14 +65,16 @@ namespace CrudExemplos
         {
             Close();
         }
-        public class Login : Form2
+        /*public class Login : Form2
         {
             public string usuario
             {
-                get { return txtLogin.Text; }
+                get { return txtuserlogado.Text; }
+                
             }
-
-        }
+            
+        }*/
+       
         private void button3_Click(object sender, EventArgs e)
         {
             TelaMenu fm3 = new TelaMenu();
@@ -84,7 +88,9 @@ namespace CrudExemplos
 
         private void Form2_Load(object sender, EventArgs e)
         {
-
+           
+            
         }
+
     }
 }
