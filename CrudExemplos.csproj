@@ -75,11 +75,29 @@
     <Compile Include="Form3.Designer.cs">
       <DependentUpon>Form3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Caixa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Caixa.Designer.cs">
+      <DependentUpon>Caixa.cs</DependentUpon>
+    </Compile>
     <Compile Include="Fornecedor.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Fornecedor.Designer.cs">
       <DependentUpon>Fornecedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mesas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mesas.Designer.cs">
+      <DependentUpon>Mesas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pedido.Designer.cs">
+      <DependentUpon>Pedido.cs</DependentUpon>
     </Compile>
     <Compile Include="Produtos.cs">
       <SubType>Form</SubType>
@@ -104,8 +122,14 @@
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Caixa.resx">
+      <DependentUpon>Caixa.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Fornecedor.resx">
       <DependentUpon>Fornecedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pedido.resx">
+      <DependentUpon>Pedido.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Produtos.resx">
       <DependentUpon>Produtos.cs</DependentUpon>
@@ -161,6 +185,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="imagens de fundo\88247.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic-back_97586.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic-back_97586 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit-find-symbolic_36205.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1486564724-pencil_81530.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1486564706-trash-can_81531.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\documentprint_104469.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dollars_96693.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\internet_locked_padlock_password_secure_security_unlock_icon_127083.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

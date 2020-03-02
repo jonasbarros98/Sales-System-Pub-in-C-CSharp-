@@ -110,5 +110,17 @@ namespace CrudExemplos
             Fornecedor forn = new Fornecedor();
             forn.Show();
         }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            Pedido ped = new Pedido();
+            ped.Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Caixa caixa = new Caixa();
+            caixa.Show();
+        }
     }
 }

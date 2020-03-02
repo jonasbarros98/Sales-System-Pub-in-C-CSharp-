@@ -163,6 +163,16 @@ namespace CrudExemplos.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap internet_locked_padlock_password_secure_security_unlock_icon_127083 {
+            get {
+                object obj = ResourceManager.GetObject("internet_locked_padlock_password_secure_security_unlock_icon_127083", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Marketing_digital_bg_hero {
             get {
                 object obj = ResourceManager.GetObject("Marketing-digital-bg-hero", resourceCulture);

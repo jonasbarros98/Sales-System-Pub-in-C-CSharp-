@@ -50,6 +50,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.labelDataHora = new System.Windows.Forms.Label();
+            this.bd_crudDataSet1 = new CrudExemplos.bd_crudDataSet();
             this.button16 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
@@ -65,7 +66,6 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.bd_crudDataSet1 = new CrudExemplos.bd_crudDataSet();
             this.groupBox1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -282,6 +282,11 @@
             this.labelDataHora.TabIndex = 18;
             this.labelDataHora.Click += new System.EventHandler(this.label4_Click);
             // 
+            // bd_crudDataSet1
+            // 
+            this.bd_crudDataSet1.DataSetName = "bd_crudDataSet";
+            this.bd_crudDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
             // button16
             // 
             this.button16.BackColor = System.Drawing.Color.Transparent;
@@ -388,6 +393,7 @@
             this.button15.Text = "Pedido no Caixa";
             this.button15.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button15.UseVisualStyleBackColor = false;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
             // button6
             // 
@@ -405,6 +411,7 @@
             this.button6.Text = "Abrir/Fechar Caixa";
             this.button6.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button8
             // 
@@ -542,11 +549,6 @@
             this.button3.Text = "Consultar Funcionários";
             this.button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button3.UseVisualStyleBackColor = false;
-            // 
-            // bd_crudDataSet1
-            // 
-            this.bd_crudDataSet1.DataSetName = "bd_crudDataSet";
-            this.bd_crudDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // TelaMenu
             // 
