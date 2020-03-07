@@ -336,12 +336,11 @@
             // 
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.label8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.Blue;
-            this.label8.Location = new System.Drawing.Point(219, -2);
+            this.label8.Location = new System.Drawing.Point(219, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(207, 24);
+            this.label8.Size = new System.Drawing.Size(205, 22);
             this.label8.TabIndex = 24;
             this.label8.Text = "Cadastro de Produtos";
             // 
@@ -381,6 +380,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.ProdutoListDataGrid);
             this.Name = "Produtos";
+            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Produtos";
             this.Load += new System.EventHandler(this.Produtos_Load);

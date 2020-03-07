@@ -37,8 +37,11 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
+            this.textBox11 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.ProdutoListDataGrid = new System.Windows.Forms.DataGridView();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -50,8 +53,6 @@
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
@@ -59,7 +60,6 @@
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.LabelDataHora = new System.Windows.Forms.Label();
-            this.textBox11 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ProdutoListDataGrid)).BeginInit();
             this.SuspendLayout();
@@ -107,7 +107,7 @@
             // textBox1
             // 
             this.textBox1.BackColor = System.Drawing.Color.White;
-            this.textBox1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.textBox1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.textBox1.Location = new System.Drawing.Point(6, 186);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
@@ -117,7 +117,7 @@
             // textBox2
             // 
             this.textBox2.BackColor = System.Drawing.Color.White;
-            this.textBox2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.textBox2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.textBox2.Location = new System.Drawing.Point(6, 241);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
@@ -127,7 +127,7 @@
             // textBox3
             // 
             this.textBox3.BackColor = System.Drawing.Color.White;
-            this.textBox3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.textBox3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.textBox3.Location = new System.Drawing.Point(6, 310);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
@@ -137,7 +137,7 @@
             // textBox4
             // 
             this.textBox4.BackColor = System.Drawing.Color.White;
-            this.textBox4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.textBox4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.textBox4.Location = new System.Drawing.Point(6, 362);
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
@@ -166,6 +166,27 @@
             this.panel1.Size = new System.Drawing.Size(231, 604);
             this.panel1.TabIndex = 1;
             // 
+            // textBox11
+            // 
+            this.textBox11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.textBox11.Dock = System.Windows.Forms.DockStyle.Top;
+            this.textBox11.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.textBox11.Location = new System.Drawing.Point(0, 0);
+            this.textBox11.Multiline = true;
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(231, 48);
+            this.textBox11.TabIndex = 35;
+            // 
+            // textBox5
+            // 
+            this.textBox5.BackColor = System.Drawing.Color.White;
+            this.textBox5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.textBox5.Location = new System.Drawing.Point(82, 93);
+            this.textBox5.Multiline = true;
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(62, 22);
+            this.textBox5.TabIndex = 11;
+            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -177,15 +198,36 @@
             this.label5.TabIndex = 10;
             this.label5.Text = "Pedido Nº: ";
             // 
-            // textBox5
+            // button2
             // 
-            this.textBox5.BackColor = System.Drawing.Color.White;
-            this.textBox5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.textBox5.Location = new System.Drawing.Point(82, 93);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(62, 22);
-            this.textBox5.TabIndex = 11;
+            this.button2.BackColor = System.Drawing.Color.Transparent;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button2.Image = global::CrudExemplos.Properties.Resources.ic_back_97586__1_;
+            this.button2.Location = new System.Drawing.Point(10, 538);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(128, 39);
+            this.button2.TabIndex = 9;
+            this.button2.Text = "Voltar";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Crimson;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button1.Image = global::CrudExemplos.Properties.Resources._1486564706_trash_can_81531;
+            this.button1.Location = new System.Drawing.Point(16, 442);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(128, 46);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "Excluir Pedido";
+            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // ProdutoListDataGrid
             // 
@@ -223,7 +265,7 @@
             // textBox6
             // 
             this.textBox6.BackColor = System.Drawing.Color.White;
-            this.textBox6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.textBox6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.textBox6.Location = new System.Drawing.Point(314, 456);
             this.textBox6.Multiline = true;
             this.textBox6.Name = "textBox6";
@@ -233,17 +275,18 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.Black;
             this.label8.Location = new System.Drawing.Point(620, 476);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(57, 15);
+            this.label8.Size = new System.Drawing.Size(69, 17);
             this.label8.TabIndex = 23;
             this.label8.Text = "TOTAL: ";
             this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // button8
             // 
+            this.button8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.button8.BackColor = System.Drawing.Color.Crimson;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -254,19 +297,21 @@
             this.button8.TabIndex = 25;
             this.button8.Text = "Sair";
             this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // textBox7
             // 
             this.textBox7.BackColor = System.Drawing.Color.White;
-            this.textBox7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.textBox7.Location = new System.Drawing.Point(683, 472);
+            this.textBox7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.textBox7.Location = new System.Drawing.Point(686, 471);
             this.textBox7.Multiline = true;
             this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(98, 22);
+            this.textBox7.Size = new System.Drawing.Size(105, 22);
             this.textBox7.TabIndex = 26;
             // 
             // button6
             // 
+            this.button6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.button6.BackColor = System.Drawing.Color.Transparent;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -283,6 +328,7 @@
             // 
             // button5
             // 
+            this.button5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.button5.BackColor = System.Drawing.Color.Transparent;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -300,6 +346,7 @@
             // 
             // button4
             // 
+            this.button4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.button4.BackColor = System.Drawing.Color.Green;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -316,6 +363,7 @@
             // 
             // button3
             // 
+            this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -329,37 +377,6 @@
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button3.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Transparent;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button2.Image = global::CrudExemplos.Properties.Resources.ic_back_97586__1_;
-            this.button2.Location = new System.Drawing.Point(10, 538);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(128, 39);
-            this.button2.TabIndex = 9;
-            this.button2.Text = "Voltar";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Crimson;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button1.Image = global::CrudExemplos.Properties.Resources._1486564706_trash_can_81531;
-            this.button1.Location = new System.Drawing.Point(16, 442);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(128, 46);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "Excluir Pedido";
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button1.UseVisualStyleBackColor = false;
             // 
             // label9
             // 
@@ -397,7 +414,7 @@
             // textBox8
             // 
             this.textBox8.BackColor = System.Drawing.Color.White;
-            this.textBox8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.textBox8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.textBox8.Location = new System.Drawing.Point(534, 452);
             this.textBox8.Multiline = true;
             this.textBox8.Name = "textBox8";
@@ -407,7 +424,7 @@
             // textBox9
             // 
             this.textBox9.BackColor = System.Drawing.Color.White;
-            this.textBox9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.textBox9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.textBox9.Location = new System.Drawing.Point(534, 476);
             this.textBox9.Multiline = true;
             this.textBox9.Name = "textBox9";
@@ -417,7 +434,7 @@
             // textBox10
             // 
             this.textBox10.BackColor = System.Drawing.Color.White;
-            this.textBox10.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.textBox10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.textBox10.Location = new System.Drawing.Point(314, 480);
             this.textBox10.Multiline = true;
             this.textBox10.Name = "textBox10";
@@ -427,22 +444,11 @@
             // LabelDataHora
             // 
             this.LabelDataHora.AutoSize = true;
-            this.LabelDataHora.Location = new System.Drawing.Point(330, 25);
+            this.LabelDataHora.Location = new System.Drawing.Point(242, 18);
             this.LabelDataHora.Name = "LabelDataHora";
             this.LabelDataHora.Size = new System.Drawing.Size(51, 13);
             this.LabelDataHora.TabIndex = 34;
             this.LabelDataHora.Text = "Datahora";
-            // 
-            // textBox11
-            // 
-            this.textBox11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.textBox11.Dock = System.Windows.Forms.DockStyle.Top;
-            this.textBox11.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.textBox11.Location = new System.Drawing.Point(0, 0);
-            this.textBox11.Multiline = true;
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(231, 48);
-            this.textBox11.TabIndex = 35;
             // 
             // Pedido
             // 

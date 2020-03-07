@@ -39,10 +39,10 @@ namespace CrudExemplos
                 MySqlDataAdapter da = new MySqlDataAdapter(cmd);
                 da.Fill(dt);
                 i = Convert.ToInt32(dt.Rows.Count.ToString());
-
+                MessageBox.Show(""+ cmd);
                 if (i == 0)
                 {
-                    MessageBox.Show("Usuario ou senha incorretos");
+                    MessageBox.Show("Usuario ou senha incorretos"+i);
                 }
                 else
                 {
