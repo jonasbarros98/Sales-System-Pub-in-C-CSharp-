@@ -66,6 +66,7 @@
             // 
             this.produtoTableAdapter.ClearBeforeFill = true;
             // 
+<<<<<<< HEAD
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -195,6 +196,88 @@
             this.txtCodProd.Name = "txtCodProd";
             this.txtCodProd.Size = new System.Drawing.Size(59, 20);
             this.txtCodProd.TabIndex = 39;
+=======
+            // button5
+            // 
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Location = new System.Drawing.Point(479, 572);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(116, 30);
+            this.button5.TabIndex = 23;
+            this.button5.Text = "Sair";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // button3
+            // 
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(333, 572);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(116, 30);
+            this.button3.TabIndex = 22;
+            this.button3.Text = "Editar";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button2
+            // 
+            this.button2.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(197, 572);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(110, 30);
+            this.button2.TabIndex = 21;
+            this.button2.Text = "Excluir";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button1
+            // 
+            this.button1.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(54, 572);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(110, 30);
+            this.button1.TabIndex = 20;
+            this.button1.Text = "Salvar";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.Blue;
+            this.label8.Location = new System.Drawing.Point(219, 0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(205, 22);
+            this.label8.TabIndex = 24;
+            this.label8.Text = "Cadastro de Produtos";
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.txtCodProd);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.txtDescricao);
+            this.groupBox1.Controls.Add(this.label7);
+            this.groupBox1.Controls.Add(this.txtPrecoVenda);
+            this.groupBox1.Controls.Add(this.txtCodPerson);
+            this.groupBox1.Controls.Add(this.txtPrecoCusto);
+            this.groupBox1.Controls.Add(this.txtNome);
+            this.groupBox1.Controls.Add(this.txtCategoria);
+            this.groupBox1.Location = new System.Drawing.Point(12, 25);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(618, 183);
+            this.groupBox1.TabIndex = 25;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Informações do produto";
+>>>>>>> c838a56767ad5ebd5085c328102739e7487b4838
             // 
             // Produtos
             // 
@@ -214,6 +297,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Produtos";
+            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Produtos";
             this.Load += new System.EventHandler(this.Produtos_Load);

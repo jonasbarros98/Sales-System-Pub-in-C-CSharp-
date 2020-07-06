@@ -32,7 +32,9 @@
             this.label6 = new System.Windows.Forms.Label();
             this.ProdutoListDataGrid = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
             this.textBox11 = new System.Windows.Forms.TextBox();
+<<<<<<< HEAD
             this.btnFecharCaixa = new System.Windows.Forms.Button();
             this.cmbBarbeiro = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -49,6 +51,16 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.cmbStatus = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
+=======
+            this.button2 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+>>>>>>> c838a56767ad5ebd5085c328102739e7487b4838
             ((System.ComponentModel.ISupportInitialize)(this.ProdutoListDataGrid)).BeginInit();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -98,6 +110,17 @@
             this.panel1.Size = new System.Drawing.Size(877, 39);
             this.panel1.TabIndex = 35;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(7, 373);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(150, 13);
+            this.label3.TabIndex = 51;
+            this.label3.Text = "Data / hora de abertura: ";
+            // 
             // textBox11
             // 
             this.textBox11.BackColor = System.Drawing.Color.DarkSeaGreen;
@@ -113,7 +136,27 @@
             this.textBox11.Text = "Controle de Caixa Por Funcionário";
             this.textBox11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+<<<<<<< HEAD
             // btnFecharCaixa
+=======
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Transparent;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button2.Image = global::CrudExemplos.Properties.Resources.internet_locked_padlock_password_secure_security_unlock_icon_127083;
+            this.button2.Location = new System.Drawing.Point(44, 297);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(131, 39);
+            this.button2.TabIndex = 9;
+            this.button2.Text = "Abrir Caixa";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // label1
+>>>>>>> c838a56767ad5ebd5085c328102739e7487b4838
             // 
             this.btnFecharCaixa.BackColor = System.Drawing.Color.Crimson;
             this.btnFecharCaixa.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
@@ -185,7 +228,12 @@
             // 
             // button6
             // 
+<<<<<<< HEAD
             this.button6.BackColor = System.Drawing.Color.Turquoise;
+=======
+            this.button6.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.button6.BackColor = System.Drawing.Color.Transparent;
+>>>>>>> c838a56767ad5ebd5085c328102739e7487b4838
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
@@ -199,6 +247,7 @@
             this.button6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button6.UseVisualStyleBackColor = false;
             // 
+<<<<<<< HEAD
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.cmbStatus);
@@ -308,6 +357,17 @@
             this.label2.TabIndex = 77;
             this.label2.Text = "Status:";
             // 
+=======
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel2.Location = new System.Drawing.Point(685, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(207, 492);
+            this.panel2.TabIndex = 52;
+            // 
+>>>>>>> c838a56767ad5ebd5085c328102739e7487b4838
             // Caixa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);

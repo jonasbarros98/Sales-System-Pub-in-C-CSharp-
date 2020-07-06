@@ -32,9 +32,15 @@ namespace CrudExemplos
 
         }
 
+<<<<<<< HEAD
         private void ProdutoListDataGrid_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+=======
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Close();
+>>>>>>> c838a56767ad5ebd5085c328102739e7487b4838
         }
     }
 }

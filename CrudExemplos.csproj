@@ -180,11 +180,19 @@
     <Compile Include="Fornecedor.Designer.cs">
       <DependentUpon>Fornecedor.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="FrmClienteSelecionar.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmClienteSelecionar.Designer.cs">
       <DependentUpon>FrmClienteSelecionar.cs</DependentUpon>
+=======
+    <Compile Include="ListagemClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListagemClientes.Designer.cs">
+      <DependentUpon>ListagemClientes.cs</DependentUpon>
+>>>>>>> c838a56767ad5ebd5085c328102739e7487b4838
     </Compile>
     <Compile Include="Mesas.cs">
       <SubType>Form</SubType>
@@ -269,11 +277,16 @@
     <EmbeddedResource Include="Fornecedor.resx">
       <DependentUpon>Fornecedor.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="FrmClienteSelecionar.resx">
       <DependentUpon>FrmClienteSelecionar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NovoProduto.resx">
       <DependentUpon>NovoProduto.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="ListagemClientes.resx">
+      <DependentUpon>ListagemClientes.cs</DependentUpon>
+>>>>>>> c838a56767ad5ebd5085c328102739e7487b4838
     </EmbeddedResource>
     <EmbeddedResource Include="Pedido.resx">
       <DependentUpon>Pedido.cs</DependentUpon>

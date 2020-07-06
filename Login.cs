@@ -39,6 +39,7 @@ namespace CrudExemplos
                 MySqlDataAdapter da = new MySqlDataAdapter(cmd);
                 da.Fill(dt);
                 i = Convert.ToInt32(dt.Rows.Count.ToString());
+<<<<<<< HEAD:Login.cs
 
                 if (txtLogin.Text != string.Empty)
                 {
@@ -54,6 +55,12 @@ namespace CrudExemplos
                         cmd.CommandText = ("SELECT login FROM usuarios where login = '" + txtLogin.Text + "'");
 
                     }
+=======
+                MessageBox.Show(""+ cmd);
+                if (i == 0)
+                {
+                    MessageBox.Show("Usuario ou senha incorretos"+i);
+>>>>>>> c838a56767ad5ebd5085c328102739e7487b4838:Form2.cs
                 }
                 else
                 {
