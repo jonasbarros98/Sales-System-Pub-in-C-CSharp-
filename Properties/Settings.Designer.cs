@@ -33,5 +33,27 @@ namespace CrudExemplos.Properties {
                 return ((string)(this["bd_crudConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("server=localhost;user id=administrador;password=masterkey2020;persistsecurityinfo" +
+            "=True;database=bd_crud;allowuservariables=True")]
+        public string bd_crudConnectionString1 {
+            get {
+                return ((string)(this["bd_crudConnectionString1"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("server=localhost;user id=root;password=masterkey;persistsecurityinfo=True;databas" +
+            "e=bd_crud")]
+        public string bd_crudConnectionString2 {
+            get {
+                return ((string)(this["bd_crudConnectionString2"]));
+            }
+        }
     }
 }

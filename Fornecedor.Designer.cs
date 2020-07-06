@@ -116,9 +116,9 @@
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.cmbEstado);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(12, 231);
+            this.groupBox1.Location = new System.Drawing.Point(12, 257);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(542, 164);
+            this.groupBox1.Size = new System.Drawing.Size(667, 200);
             this.groupBox1.TabIndex = 21;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Endereço Principal";
@@ -243,6 +243,7 @@
             this.button4.TabIndex = 1;
             this.button4.Text = "Buscar";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // txtCelular
             // 
@@ -273,7 +274,7 @@
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(12, 12);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(542, 213);
+            this.groupBox2.Size = new System.Drawing.Size(667, 239);
             this.groupBox2.TabIndex = 20;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Dados Principais";
@@ -390,7 +391,7 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(438, 401);
+            this.button5.Location = new System.Drawing.Point(567, 463);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(116, 30);
             this.button5.TabIndex = 25;
@@ -399,7 +400,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(294, 401);
+            this.button3.Location = new System.Drawing.Point(451, 463);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(116, 30);
             this.button3.TabIndex = 24;
@@ -408,7 +409,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(152, 401);
+            this.button2.Location = new System.Drawing.Point(341, 463);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(110, 30);
             this.button2.TabIndex = 23;
@@ -417,26 +418,30 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(17, 401);
+            this.button1.Location = new System.Drawing.Point(231, 463);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(110, 30);
             this.button1.TabIndex = 22;
             this.button1.Text = "Salvar";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Fornecedor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(560, 439);
+            this.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.ClientSize = new System.Drawing.Size(684, 496);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "Fornecedor";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Fornecedor";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

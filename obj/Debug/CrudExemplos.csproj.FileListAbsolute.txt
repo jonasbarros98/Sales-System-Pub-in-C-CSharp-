@@ -16,3 +16,113 @@ C:\CSharp\CrudExemplos\CrudExemplos\obj\Debug\CrudExemplos.Produtos.resources
 C:\CSharp\CrudExemplos\CrudExemplos\obj\Debug\CrudExemplos.csprojAssemblyReference.cache
 C:\CSharp\CrudExemplos\CrudExemplos\obj\Debug\CrudExemplos.Pedido.resources
 C:\CSharp\CrudExemplos\CrudExemplos\obj\Debug\CrudExemplos.Caixa.resources
+C:\CSharp\Sales-System-Pub-in-C-CSharp\bin\Debug\CrudExemplos.exe.config
+C:\CSharp\Sales-System-Pub-in-C-CSharp\bin\Debug\CrudExemplos.exe
+C:\CSharp\Sales-System-Pub-in-C-CSharp\bin\Debug\CrudExemplos.pdb
+C:\CSharp\Sales-System-Pub-in-C-CSharp\bin\Debug\MySql.Data.dll
+C:\CSharp\Sales-System-Pub-in-C-CSharp\obj\Debug\CrudExemplos.csprojAssemblyReference.cache
+C:\CSharp\Sales-System-Pub-in-C-CSharp\obj\Debug\CrudExemplos.CadastroParceiro.resources
+C:\CSharp\Sales-System-Pub-in-C-CSharp\obj\Debug\CrudExemplos.Form2.resources
+C:\CSharp\Sales-System-Pub-in-C-CSharp\obj\Debug\CrudExemplos.TelaMenu.resources
+C:\CSharp\Sales-System-Pub-in-C-CSharp\obj\Debug\CrudExemplos.Caixa.resources
+C:\CSharp\Sales-System-Pub-in-C-CSharp\obj\Debug\CrudExemplos.Fornecedor.resources
+C:\CSharp\Sales-System-Pub-in-C-CSharp\obj\Debug\CrudExemplos.Pedido.resources
+C:\CSharp\Sales-System-Pub-in-C-CSharp\obj\Debug\CrudExemplos.Produtos.resources
+C:\CSharp\Sales-System-Pub-in-C-CSharp\obj\Debug\CrudExemplos.Properties.Resources.resources
+C:\CSharp\Sales-System-Pub-in-C-CSharp\obj\Debug\CrudExemplos.Usuario.resources
+C:\CSharp\Sales-System-Pub-in-C-CSharp\obj\Debug\CrudExemplos.csproj.GenerateResource.cache
+C:\CSharp\Sales-System-Pub-in-C-CSharp\obj\Debug\CrudExemplos.csproj.CopyComplete
+C:\CSharp\Sales-System-Pub-in-C-CSharp\obj\Debug\CrudExemplos.exe
+C:\CSharp\Sales-System-Pub-in-C-CSharp\obj\Debug\CrudExemplos.pdb
+C:\CSharp\Sales-System-Pub-in-C-CSharp\obj\Debug\CrudExemplos.NovoProduto.resources
+C:\CSharp\Sales-System-Pub-in-C-CSharp\obj\Debug\CrudExemplos.FrmClienteSelecionar.resources
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\CrudExemplos.exe.config
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\CrudExemplos.exe
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\CrudExemplos.pdb
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\MySql.Data.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\obj\Debug\CrudExemplos.csprojAssemblyReference.cache
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\obj\Debug\CrudExemplos.CadastroParceiro.resources
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\obj\Debug\CrudExemplos.TelaMenu.resources
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\obj\Debug\CrudExemplos.Caixa.resources
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\obj\Debug\CrudExemplos.Fornecedor.resources
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\obj\Debug\CrudExemplos.FrmClienteSelecionar.resources
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\obj\Debug\CrudExemplos.NovoProduto.resources
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\obj\Debug\CrudExemplos.Pedido.resources
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\obj\Debug\CrudExemplos.Produtos.resources
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\obj\Debug\CrudExemplos.Properties.Resources.resources
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\obj\Debug\CrudExemplos.Usuario.resources
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\obj\Debug\CrudExemplos.csproj.GenerateResource.cache
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\obj\Debug\CrudExemplos.csproj.CopyComplete
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\obj\Debug\CrudExemplos.exe
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\obj\Debug\CrudExemplos.pdb
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\obj\Debug\CrudExemplos.ListaProdutos.resources
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\obj\Debug\CrudExemplos.Login.resources
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\obj\Debug\CrudExemplos.Agendamentos.resources
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\obj\Debug\CrudExemplos.ConsultarAgendamentos.resources
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\obj\Debug\CrudExemplos.ConsultarCliente.resources
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\obj\Debug\CrudExemplos.txtCliente.resources
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\obj\Debug\CrudExemplos.csproj.CoreCompileInputs.cache
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\EnvDTE.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\stdole.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\Microsoft.MSXML.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\obj\Debug\CrudExemplos.RelatorioClientes.resources
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\obj\Debug\RdlCompile.cache
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\obj\Debug\RdlCompile.compiled
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\obj\Debug\CrudExemplos.ConsultarEstoque.resources
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\obj\Debug\CrudExemplos.CategoriaProdutos.resources
+C:\CSharp\Sistema para Barbearia\Sales-System-Barbershop-in-C-CSharp\obj\Debug\CrudExemplos.CartaoCombo.resources

@@ -73,7 +73,6 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.label19 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -102,9 +101,9 @@
             this.groupBox1.Controls.Add(this.txtEmailUsu);
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(3, 27);
+            this.groupBox1.Location = new System.Drawing.Point(3, 3);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(596, 191);
+            this.groupBox1.Size = new System.Drawing.Size(603, 215);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Dados Principais";
@@ -287,7 +286,7 @@
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(3, 224);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(596, 181);
+            this.groupBox2.Size = new System.Drawing.Size(603, 181);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Endereço Principal";
@@ -426,7 +425,7 @@
             this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.Location = new System.Drawing.Point(3, 411);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(596, 143);
+            this.groupBox3.Size = new System.Drawing.Size(603, 143);
             this.groupBox3.TabIndex = 3;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Como Usuário";
@@ -438,6 +437,7 @@
             this.cmbTipoUsu.Name = "cmbTipoUsu";
             this.cmbTipoUsu.Size = new System.Drawing.Size(134, 21);
             this.cmbTipoUsu.TabIndex = 18;
+            this.cmbTipoUsu.SelectedIndexChanged += new System.EventHandler(this.cmbTipoUsu_SelectedIndexChanged);
             // 
             // label17
             // 
@@ -487,7 +487,7 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(463, 560);
+            this.button5.Location = new System.Drawing.Point(486, 560);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(120, 30);
             this.button5.TabIndex = 22;
@@ -497,7 +497,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(321, 560);
+            this.button3.Location = new System.Drawing.Point(366, 560);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(120, 30);
             this.button3.TabIndex = 21;
@@ -507,7 +507,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(182, 560);
+            this.button2.Location = new System.Drawing.Point(246, 560);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(120, 30);
             this.button2.TabIndex = 20;
@@ -517,7 +517,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(36, 560);
+            this.button1.Location = new System.Drawing.Point(126, 560);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(120, 30);
             this.button1.TabIndex = 19;
@@ -525,24 +525,12 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.ForeColor = System.Drawing.Color.Blue;
-            this.label19.Location = new System.Drawing.Point(212, 0);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(209, 24);
-            this.label19.TabIndex = 23;
-            this.label19.Text = "Cadastro de Usuários";
-            // 
             // Usuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(611, 593);
-            this.Controls.Add(this.label19);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -552,8 +540,9 @@
             this.Controls.Add(this.groupBox1);
             this.MaximizeBox = false;
             this.Name = "Usuario";
+            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Cadastrar Usuário";
+            this.Text = "Cadastrar Usuário/Funcionário";
             this.Load += new System.EventHandler(this.Usuario_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -562,7 +551,6 @@
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -612,6 +600,5 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label19;
     }
 }

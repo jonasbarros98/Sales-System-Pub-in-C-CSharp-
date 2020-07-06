@@ -136,9 +136,11 @@ namespace CrudExemplos
 
             //Inserindo dados no combobox Tipo de Usuario
             cmbTipoUsu.Items.Add("FUNCIONARIO");
-            cmbTipoUsu.Items.Add("ADM");
+            cmbTipoUsu.Items.Add("BARBEIRO");
+            cmbTipoUsu.Items.Add("ADMINISTRADOR");
             cmbTipoUsu.Items.Add("USUÁRIO");
             cmbTipoUsu.Items.Add("OUTROS");
+            
         }
 
         private void txtLogin_TextChanged(object sender, EventArgs e)
@@ -330,6 +332,11 @@ namespace CrudExemplos
                 MessageBox.Show("Erro ao buscar os dados!" + erro);
             }
             LimpaTexbox();
+        }
+
+        private void cmbTipoUsu_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }    
 }
